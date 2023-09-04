@@ -27,6 +27,7 @@ public class App {
             tabla = lector.nextByte();
         }
         for (int j = 1; j <= tabla; j++) { //Es para pasar de una tabla a otra
+            System.out.println("::::::::::Tabla del " + j + "::::::::");
             for (int i = 1; i <= 12; i++) {
                 System.out.println(j + " x " + i + " = " + j*i);
             }
